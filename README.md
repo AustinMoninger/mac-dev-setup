@@ -7,7 +7,9 @@ This is for me and every future work/personal Mac I get. And for anyone else who
 
 ## Manual Downloads
 
-### Chrome
+### Chrome 
+<img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
+
 Are there really any other options?
 [Install Chrome](https://www.google.com/chrome/)
 
@@ -24,4 +26,6 @@ Are there really any other options?
 
 
 ### VSCode
+<img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="10%" height="10%">
+
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
