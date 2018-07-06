@@ -21,3 +21,7 @@ Are there really any other options?
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US). Self-explanatory.
 
 * [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
+
+
+### VSCode
+I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
