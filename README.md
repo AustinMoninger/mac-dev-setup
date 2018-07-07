@@ -16,7 +16,7 @@ Are there really any other options?
 #### Chrome Extensions
 * [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
 
-* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into [wordcounter.net](wordcounter.net) to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
+* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into https://wordcounter.net/ to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
 
 * [Empty New Tab Page](https://chrome.google.com/webstore/detail/empty-new-tab-page/dpjamkmjmigaoobjbekmfgabipmfilij). Beautiful, blank new tab page that doesn't have the distraction ridden thumbnails that the default new tab page does.
 
