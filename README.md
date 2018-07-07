@@ -10,8 +10,9 @@ This is so I never have to remember anything and can use this on every future wo
 ### Chrome 
 <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
 
-Are there really any other options?
 [Install Chrome](https://www.google.com/chrome/)
+
+Are there really any other options?
 
 #### Chrome Extensions
 * [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
@@ -26,6 +27,16 @@ Are there really any other options?
 
 
 ### VSCode
-<img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="10%" height="10%">
+<img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
+
+[Install VSCode](https://go.microsoft.com/fwlink/?LinkID=534106)
 
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
+
+
+### Consolas Font Family
+<img src="https://user-images.githubusercontent.com/28496268/42413182-9a1e99fc-81e0-11e8-8841-cd9103f297cd.png" width="10%" height="20%">
+
+[Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
+
+Code looks nice in this font. It comes installed with Microsoft Office but otherwise you have to download it.
