@@ -2,7 +2,7 @@
 
 Once upon a time, I got a laptop for work. And it had none of the settings/installations/configurations that I wanted/needed/craved. **NEVER AGAIN.** 
 
-This is for me and every future work/personal Mac I get. And for anyone else who wants to use it. Lots of credit to [this repository](https://github.com/nicolashery/mac-dev-setup) from which I borrowed a good chunk of this setup.
+This is so I never have to remember anything and can use this on every future work/personal Mac I get. And for anyone else who wants to use it. Lots of credit to [this repository](https://github.com/nicolashery/mac-dev-setup) from which I borrowed a good chunk of this setup.
 
 
 ## Manual Downloads
