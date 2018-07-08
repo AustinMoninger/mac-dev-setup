@@ -35,8 +35,16 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 
 
 ### Consolas Font Family
-<img src="https://user-images.githubusercontent.com/28496268/42413182-9a1e99fc-81e0-11e8-8841-cd9103f297cd.png" width="10%" height="20%">
+<img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
 
 [Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
 
 Code looks nice in this font. It comes installed with Microsoft Office but otherwise you have to download it.
+
+
+### iTerm2
+<img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="10%" height="20%">
+
+[Install iTerm2](https://iterm2.com/downloads/stable/latest)
+
+Terminal emulator that is highly configurable.
