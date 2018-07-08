@@ -7,16 +7,16 @@ This is so I never have to remember anything and can use this on every future wo
 
 ## Manual Downloads
 
-### Chrome 
+### Google Chrome 
 <a href="https://www.google.com/chrome/">
   <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
 </a>
 
-[Install Chrome](https://www.google.com/chrome/)
+[Install Google Chrome](https://www.google.com/chrome/)
 
 Are there really any other options?
 
-#### Chrome Extensions
+#### Google Chrome Extensions
 * [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
 
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into [wordcounter.net](https://wordcounter.net/) to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
@@ -28,12 +28,12 @@ Are there really any other options?
 * [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
 
 
-### VSCode
+### Visual Studio Code
 <a href="https://go.microsoft.com/fwlink/?LinkID=534106">
   <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
 </a>
 
-[Install VSCode](https://go.microsoft.com/fwlink/?LinkID=534106)
+[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106)
 
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
 
