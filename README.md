@@ -48,12 +48,12 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
 
 
-### iTerm2
+### iTerm
 <a href="https://iterm2.com/downloads/stable/latest">
   <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="10%" height="20%">
 </a>
 
-[Install iTerm2](https://iterm2.com/downloads/stable/latest)
+[Install iTerm](https://iterm2.com/downloads/stable/latest)
 
 Terminal emulator that is highly configurable.
 
