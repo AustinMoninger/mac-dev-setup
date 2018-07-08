@@ -55,6 +55,6 @@ Code looks nice in `this font`. It comes installed with Microsoft Office but oth
 
 [Install iTerm2](https://iterm2.com/downloads/stable/latest)
 
-Terminal emulator that is highly configurable.
+Terminal emulator that is highly configurable..
 
 
