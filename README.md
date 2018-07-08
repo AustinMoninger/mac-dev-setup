@@ -8,7 +8,9 @@ This is so I never have to remember anything and can use this on every future wo
 ## Manual Downloads
 
 ### Chrome 
-<img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
+<a href="https://www.google.com/chrome/">
+  <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
+</a>
 
 [Install Chrome](https://www.google.com/chrome/)
 
@@ -27,7 +29,9 @@ Are there really any other options?
 
 
 ### VSCode
-<img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
+<a href="https://go.microsoft.com/fwlink/?LinkID=534106">
+  <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
+</a>
 
 [Install VSCode](https://go.microsoft.com/fwlink/?LinkID=534106)
 
@@ -35,16 +39,21 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 
 
 ### Consolas Font Family
-<img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
+<a href="http://www.fontpalace.com/font-download/Consolas/">
+  <img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
+</a>
 
 [Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
 
-Code looks nice in this font. It comes installed with Microsoft Office but otherwise you have to download it.
+Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
 
 
 ### iTerm2
-<img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="10%" height="20%">
+<a href="https://iterm2.com/downloads/stable/latest">
+  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="10%" height="20%">
+</a>
 
 [Install iTerm2](https://iterm2.com/downloads/stable/latest)
 
 Terminal emulator that is highly configurable.
+
