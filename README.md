@@ -39,7 +39,8 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 
 #### Configurations
 * Open VS Code from Command Line: 
-    * Open the Command Palette (⇧⌘P) and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
+
+    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
 
 
 ### Consolas Font Family
@@ -59,6 +60,16 @@ Code looks nice in `this font`. It comes installed with Microsoft Office but oth
 
 [Install iTerm2](https://iterm2.com/downloads/stable/latest)
 
-Terminal emulator that is highly configurable..
+Terminal emulator that is highly configurable.
+
+#### Preferences (⌘,)
+* **General > Closing**
+
+    * Uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`
+    
+* **Profiles**
+
+    * Create a new profile and call it `Austin`. Select `Other Actions...` and `Set as Default`.
+    
 
 
