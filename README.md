@@ -37,6 +37,10 @@ Are there really any other options?
 
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
 
+#### Configurations
+* Open VS Code from Command Line: 
+    * Open the Command Palette (⇧⌘P) and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
+
 
 ### Consolas Font Family
 <a href="http://www.fontpalace.com/font-download/Consolas/">
