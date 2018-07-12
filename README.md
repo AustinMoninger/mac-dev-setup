@@ -87,6 +87,6 @@ Terminal emulator that is highly configurable.
 
 [Install f.lux](https://justgetflux.com/dlmac.html)
 
-Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\_(ツ)_/¯.
+Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
     
 
