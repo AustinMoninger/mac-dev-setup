@@ -79,4 +79,14 @@ Terminal emulator that is highly configurable.
 
     * Change `Columns` to 110 and `Rows` to 30.
     
+    
+### f.lux
+<a href="https://justgetflux.com/dlmac.html">
+  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.pn" width="10%" height="20%">
+</a>
+
+[Install f.lux](https://justgetflux.com/dlmac.html)
+
+Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\_(ツ)_/¯.
+    
 
