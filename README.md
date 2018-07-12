@@ -63,13 +63,20 @@ Code looks nice in `this font`. It comes installed with Microsoft Office but oth
 Terminal emulator that is highly configurable.
 
 #### Preferences (⌘,)
-* **General > Closing**
+* **General**
 
-    * Uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`
+    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`
     
 * **Profiles**
 
     * Create a new profile and call it `Austin`. Select `Other Actions...` and `Set as Default`.
     
+    * Under **Text**, change `Font` to Consolas 14pt.
+    
+    * Under **Colors > Color Presets...**, select Solarized Dark.
+    
+* **Window**
 
+    * Change `Columns` to 110 and `Rows` to 30.
+    
 
