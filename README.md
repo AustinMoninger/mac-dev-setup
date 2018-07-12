@@ -82,7 +82,7 @@ Terminal emulator that is highly configurable.
     
 ### f.lux
 <a href="https://justgetflux.com/dlmac.html">
-  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.pn" width="10%" height="20%">
+  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.png" width="8%" height="18%">
 </a>
 
 [Install f.lux](https://justgetflux.com/dlmac.html)
