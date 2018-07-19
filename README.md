@@ -89,4 +89,12 @@ Terminal emulator that is highly configurable.
 
 Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
     
+### RescueTime
+<a href="https://www.rescuetime.com/installers/RescueTimeInstaller.pkg">
+  <img src="https://user-images.githubusercontent.com/28496268/42916114-32b00b9c-8ac9-11e8-9c52-8a01b1e6fa7d.png" width="8%" height="18%">
+</a>
+
+[Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg)
+
+App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year.   
 
