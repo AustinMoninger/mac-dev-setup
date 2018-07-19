@@ -89,6 +89,7 @@ Terminal emulator that is highly configurable.
 
 Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
     
+    
 ### RescueTime
 <a href="https://www.rescuetime.com/installers/RescueTimeInstaller.pkg">
   <img src="https://user-images.githubusercontent.com/28496268/42916114-32b00b9c-8ac9-11e8-9c52-8a01b1e6fa7d.png" width="8%" height="18%">
@@ -97,4 +98,16 @@ Cool little app that makes the light emitted from your computer less harsh at ni
 [Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg)
 
 App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year. Awareness is the first step.
+
+
+### Google Backup and Sync
+<a href="https://www.google.com/drive/download/backup-and-sync/">
+  <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="8%" height="18%">
+</a>
+
+[Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
+
+Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
+
+
 
