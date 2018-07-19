@@ -1,6 +1,7 @@
 # My Mac Dev Environment Setup
 
-I try to stay as "digitally minimalistic" as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the course of my internship, I had to slowly recall all the settings that I liked on my machine (for my work machine, that is). Now with this page I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check that out too if you are interested.
+I try to stay as "digitally minimalistic" as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
+That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the course of my internship, I had to slowly recall all the settings that I liked on my machine (for my work machine, that is). Now with this page I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check that out too if you are interested.
 
 
 ## Manual Downloads
@@ -32,6 +33,7 @@ Are there really any other options?
 </a>
 
 [Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106)
+
 
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
 
