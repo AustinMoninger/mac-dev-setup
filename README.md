@@ -96,5 +96,5 @@ Cool little app that makes the light emitted from your computer less harsh at ni
 
 [Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg)
 
-App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year.   
+App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year. Awareness is the first step.
 
