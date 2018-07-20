@@ -53,7 +53,7 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 
     * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
    
-* Preferences > Settings
+* **Preferences > Settings**
 
     * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`
 
@@ -131,4 +131,14 @@ App that tracks how much time you spend on certain apps and websites. It gives y
 [Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
 
 Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
+
+
+### Magnet
+<a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
+  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="8%" height="18%">
+</a>
+
+[Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
+
+Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
 
