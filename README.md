@@ -95,6 +95,11 @@ Terminal emulator that is highly configurable.
 [Install f.lux](https://justgetflux.com/dlmac.html)
 
 Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
+
+#### Preferences (⌘,)
+* set color temperature to `6000K`
+
+* select `Daytime` and check the box that says `Start at login`
     
     
 ### RescueTime
@@ -116,5 +121,14 @@ App that tracks how much time you spend on certain apps and websites. It gives y
 
 Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
 
+
+### Spotify
+<a href="https://download.scdn.co/SpotifyInstaller.zip">
+  <img src="https://user-images.githubusercontent.com/28496268/43025807-c78b9b6c-8c38-11e8-97b8-a678c73adc0f.png" width="8%" height="8%">
+</a>
+
+[Install Spotify](https://download.scdn.co/SpotifyInstaller.zip)
+
+If there is one company that has earned my life-long monthly subscription, it's this one.
 
 
