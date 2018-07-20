@@ -28,20 +28,7 @@ Are there really any other options?
 * [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
 
 
-### Visual Studio Code
-<a href="https://go.microsoft.com/fwlink/?LinkID=534106">
-  <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
-</a>
 
-[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106)
-
-
-I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
-
-#### Configurations
-* Open VS Code from Command Line: 
-
-    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
 
 
 ### Consolas Font Family
@@ -52,6 +39,25 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 [Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
 
 Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
+
+
+### Visual Studio Code
+<a href="https://go.microsoft.com/fwlink/?LinkID=534106">
+  <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
+</a>
+
+[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106)
+
+I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
+
+#### Configurations
+* Open VS Code from Command Line: 
+
+    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
+   
+* Preferences > Settings
+
+    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`
 
 
 ### iTerm2
