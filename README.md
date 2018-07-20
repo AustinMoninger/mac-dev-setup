@@ -4,6 +4,27 @@ I try to stay as "digitally minimalistic" as possible, only downloading exactly 
 
 That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the course of my internship, I had to slowly recall all the settings that I liked on my machine (for my work machine, that is). Now with this page I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check that out too if you are interested.
 
+### Table of Contents
+1. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
+2. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
+3. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
+4. ...
+5. ...
+
+
+
+
+## Font Downloads
+
+### Consolas Font Family
+<a href="http://www.fontpalace.com/font-download/Consolas/">
+  <img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
+</a>
+
+[Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
+
+Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
+
 
 ## App Downloads
 
@@ -27,16 +48,6 @@ Are there really any other options?
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US). Self-explanatory (assuming that you are okay with not supporting websites via ads).
 
 * [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
-
-
-### Consolas Font Family
-<a href="http://www.fontpalace.com/font-download/Consolas/">
-  <img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
-</a>
-
-[Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
-
-Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
 
 
 ### Visual Studio Code
