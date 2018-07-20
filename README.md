@@ -1,4 +1,4 @@
-# My Mac Dev Environment Setup
+# My Mac Environment Setup
 
 I try to stay as "digitally minimalistic" as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
