@@ -1,17 +1,32 @@
-# My Mac Environment Setup
+# My Mac Dev Environment Setup
 
 I try to stay as "digitally minimalistic" as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
 That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the course of my internship, I had to slowly recall all the settings that I liked on my machine (for my work machine, that is). Now with this page I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check that out too if you are interested.
 
 ### Table of Contents
-1. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
-2. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
-3. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
-4. ...
-5. ...
+1. [System Update](https://github.com/AustinMoninger/my-mac-dev-setup#system-update)
+2. [System Preferences](https://github.com/AustinMoninger/my-mac-dev-setup#system-preferences)
+3. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
+4. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
+5. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
+6. ...
+7. ...
+8. ...
 
 
+## System Update
+
+First thing you need to do is update the system! For that: **App Store > Updates**
+
+
+## System Preferences
+
+Here are some preferences I like to tweak on my new Mac.
+
+* **Finder > Preferences**
+
+    * **General > Show items on Desktop**, uncheck `Hard disks`.
 
 
 ## Font Downloads
@@ -62,11 +77,11 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 #### Configurations
 * Open VS Code from Command Line: 
 
-    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`
+    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`.
    
 * **Preferences > Settings**
 
-    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`
+    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`.
 
 
 ### iTerm2
@@ -81,7 +96,7 @@ Terminal emulator that is highly configurable.
 #### Preferences (⌘,)
 * **General**
 
-    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`
+    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`.
     
 * **Profiles**
 
@@ -121,7 +136,7 @@ Cool little app that makes the light emitted from your computer less harsh at ni
 #### Preferences (⌘,)
 * set color temperature to `6000K`
 
-* select `Daytime` and check the box that says `Start at login`
+* select `Daytime` and check the box that says `Start at login`.
     
     
 ### RescueTime
