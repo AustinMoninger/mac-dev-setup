@@ -134,7 +134,7 @@ If there is one company that has earned my life-long monthly subscription, it's 
 Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
 
 #### Preferences (⌘,)
-* set color temperature to `6000K`
+* set color temperature to `6000K`.
 
 * select `Daytime` and check the box that says `Start at login`.
     
