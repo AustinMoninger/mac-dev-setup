@@ -22,11 +22,9 @@ First thing you need to do is update the system! For that: **App Store > Updates
 
 ## System Preferences
 
-Here are some preferences I like to tweak on my new Mac.
+Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `macOS.sh` file in this repository).
 
 * **Finder > Preferences**
-
-    * **General > Show items on Desktop**, uncheck `Hard disks`.
     
     * **General > New Finder Windows show:**, set to `Documents`.
     
