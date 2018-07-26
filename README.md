@@ -204,3 +204,21 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 
 Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
 
+
+## Dev Stuff
+
+### Homebrew
+
+Package managers make it easier to install and update applications (for Operating Systems) or libraries (for programming languages). The most popular one for OS X is [Homebrew](https://brew.sh/).
+
+Homebrew needs Command Line Tools for Xcode.
+
+    $ xcode-select --install
+    
+Install Homebrew.
+
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    
+### Pretty Terminal
+
+
