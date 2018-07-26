@@ -32,6 +32,8 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     
 * **System Preferences**
 
+    * **General**, check `Use dark menu bar and Dock` and `Automatically hide and show menu bar`.
+    
     * **App Store**, turn off `Automatically check for updates`.
     
     * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!
@@ -48,7 +50,15 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     
 * **Miscellaneous**
 
-    *
+    * Organize Dock content like this from top to bottom:
+         * Finder
+         * Chrome
+         * Calendar
+         * Spotify
+         * Notes
+         * ——
+         * Downloads folder
+         * Trash
     
 
     
