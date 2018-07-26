@@ -22,7 +22,7 @@ First thing you need to do is update the system! For that: **App Store > Updates
 
 ## System Preferences
 
-Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `macOS.sh` file in this repository).
+Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setup.sh` file in this repository).
 
 * **Finder > Preferences**
     
@@ -34,11 +34,17 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
 
     * **App Store**, turn off `Automatically check for updates`.
     
-    * **Dock**, check `Automatically hide and show dock`.
+    * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!
     
     * **Dock > Position on screen:**, select `Left`.
 
-
+    * **Desktop & Screen Saver > Desktop**, put [this image](https://www.rice.edu/wallpaper/images/Rice_campus_entrance_2048x1536.jpg) and [this image](https://www.rice.edu/wallpaper/images/Rice_sunset_academic_quad_2048x1536.jpg) into `Pictures` Then set `Change picture:` to `Every day`.
+    
+    * **Energy Saver**, set `Turn display off after:` slider to `5 minutes`.
+    
+    * **Security & Privacy > General**, set `Require password after sleep begins` to `immediately`.
+    
+    * **Security & Privacy > FileVault**, set `Turn On FileVault`. Just do it.
     
 * **Miscellaneous**
 
