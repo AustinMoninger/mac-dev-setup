@@ -21,7 +21,7 @@ First thing you need to do is update the system! For that: **App Store > Updates
 
 ## System Preferences
 
-Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setup.sh` file in this repository).
+Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setupOS.sh` file in this repository).
 
 * **Finder > Preferences**
     
@@ -219,6 +219,19 @@ Install Homebrew.
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
 ### Pretty Terminal
+
+To make the text in terminal look a little more appealing, follow these commands to overwrite your current Unix user's profile. I shamelessly got these files from [this repository](https://github.com/nicolashery/mac-dev-setup) because it looks really nice.
+
+    $ cd ~
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.bash_profile
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.bash_prompt
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.aliases
+
+Note: `ls -lh` can now be run with `ll` and `ls -lha` can now be run with `la`.
+
+
+### Git
+
 
 
 ## iPhone Apps
