@@ -222,22 +222,22 @@ Install Homebrew.
 ### Pretty Terminal
 
 
-## iPhone Stuff
+## iPhone Apps
 
-Here is a list of iPhone apps that I have installed that I do not want to have to remember if I lose my phone or it is stolen.
+And finally, here is a list of iPhone apps that I have installed that I do not want to have to remember if I lose my phone or it is stolen.
 
-* LastPass. Online password repository. Free!
-* Google Maps. Until Apple Maps gets it together.
-* Strava. Record your mileage.
-* Canvas. Rice things.
-* Scannable. Free scanner in your pocket.
-* Shazam. Figure out what song is playing.
-* Cisco AnyConnect. Encrypt all the things!
-* Duo Mobile. I am probably getting a little paranoid.
-* Ride Systems. More Rice things.
-* Uber. Hop on.
-* GroupMe, Messenger, Snapchat, Slack. Can we just pick one?
-* Chrome, Gmail, Drive, Docs, Photos. I probably trust this company too much.
-* Spotify. Ol' faithful.
+* [LastPass](https://itunes.apple.com/us/app/lastpass-password-manager/id324613447?platform=iphone&preserveScrollPosition=true#platform/iphone). Online password repository. Free!
+* [Google Maps](https://itunes.apple.com/us/app/google-maps-gps-navigation/id585027354?mt=8). Until Apple Maps gets it together.
+* [Strava](https://itunes.apple.com/us/app/strava-run-ride-or-swim/id426826309?mt=8). Record your mileage.
+* [Canvas](https://itunes.apple.com/us/app/canvas-student/id480883488?mt=8). Rice things.
+* [Scannable](https://itunes.apple.com/us/app/evernote-scannable/id883338188?mt=8). Free scanner in your pocket.
+* [Shazam](https://itunes.apple.com/us/app/evernote-scannable/id883338188?mt=8). Figure out what song is playing.
+* [Cisco AnyConnect](https://itunes.apple.com/us/app/cisco-anyconnect/id1135064690?mt=8). Encrypt all the things!
+* [Duo Mobile](https://itunes.apple.com/us/app/duo-mobile/id422663827?mt=8). I am probably getting a little paranoid.
+* [Ride Systems](https://itunes.apple.com/us/app/ride-systems/id455913117?mt=8). More Rice things.
+* [Uber](https://itunes.apple.com/us/app/uber/id368677368?mt=8). Only recently tried this for the first time.
+* [GroupMe](https://itunes.apple.com/us/app/groupme/id392796698?mt=8), [Messenger](https://itunes.apple.com/us/app/messenger/id454638411?mt=8), [Snapchat](https://itunes.apple.com/us/app/snapchat/id447188370?mt=8), [Slack](https://itunes.apple.com/us/app/slack/id618783545?mt=8). Can we just pick one?
+* [Chrome](https://itunes.apple.com/us/app/google-chrome/id535886823?mt=8), [Gmail](https://itunes.apple.com/us/app/gmail-email-by-google/id422689480?mt=8), [Drive](https://itunes.apple.com/us/app/google-drive/id507874739?mt=8), [Docs](https://itunes.apple.com/us/app/google-docs-sync-edit-share/id842842640?mt=8), [Photos](https://itunes.apple.com/us/app/google-photos/id962194608?mt=8). I probably trust this company too much.
+* [Spotify](https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8). Ol' faithful.
 
 
