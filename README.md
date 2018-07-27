@@ -10,9 +10,8 @@ That was in part the motivation for this repo; I already have all the files I do
 3. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
 4. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
 5. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
-6. ...
-7. ...
-8. ...
+6. [Developer Configurations](https://github.com/AustinMoninger/my-mac-dev-setup#developer-configurations)
+7. [iPhone Apps](https://github.com/AustinMoninger/my-mac-dev-setup#iphone-apps)
 
 
 ## System Update
@@ -205,7 +204,7 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
 
 
-## Dev Stuff
+## Developer Configurations
 
 ### Homebrew
 
