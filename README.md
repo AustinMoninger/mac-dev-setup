@@ -2,7 +2,7 @@
 
 I try to stay as digitally minimalistic as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
-That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the course of my internship, I had to slowly recall all the settings because my work computer was a clean slate. Now with this page, I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check it out too.
+That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the beginning of my internship I received a computer that was a clean slate, and instead of being able to configure it how I liked all at once, I had to slowly recall all the settings I liked over the course of the summer. Now with this page, I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check it out too.
 
 ### Table of Contents
 1. [System Update](https://github.com/AustinMoninger/my-mac-dev-setup#system-update)
@@ -220,5 +220,24 @@ Install Homebrew.
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
 ### Pretty Terminal
+
+
+## iPhone Stuff
+
+Here is a list of iPhone apps that I have installed that I do not want to have to remember if I lose my phone or it is stolen.
+
+* LastPass. Online password repository. Free!
+* Google Maps. Until Apple Maps gets it together.
+* Strava. Record your mileage.
+* Canvas. Rice things.
+* Scannable. Free scanner in your pocket.
+* Shazam. Figure out what song is playing.
+* Cisco AnyConnect. Encrypt all the things!
+* Duo Mobile. I am probably getting a little paranoid.
+* Ride Systems. More Rice things.
+* Uber. Hop on.
+* GroupMe, Messenger, Snapchat, Slack. Can we just pick one?
+* Chrome, Gmail, Drive, Docs, Photos. I probably trust this company too much.
+* Spotify. Ol' faithful.
 
 
