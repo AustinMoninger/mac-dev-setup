@@ -232,6 +232,41 @@ Note: `ls -lh` can now be run with `ll` and `ls -lha` can now be run with `la`.
 
 ### Git
 
+Hard to get very far in software development without this one. Add the [.gitconfig](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.gitconfig) file to add some colors to the `status`, `diff`, and `branch` commands.
+
+    $ brew install git
+    $ cd ~
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.gitconfig
+    
+Then define your Git user:
+
+    $ git config --global user.name "Name"
+    $ git config --global user.email "email@email.com"
+    
+And then add this so that you do not have to type your username and password each time you push via HTTPS:
+
+    $ git config --global credential.helper osxkeychain
+
+
+### Vim
+
+I only really use Vim when I must, but since it doesn't look all that pretty and [Tim Pope] has put together some nice defaults already, I might as well use them.
+
+Install [pathogen.vim](https://github.com/tpope/vim-pathogen) with:
+
+    $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    
+Then create a file `~/.vimrc` and paste the following in it:
+
+    execute pathogen#infect()
+    syntax on
+    filetype plugin indent on
+    
+Finally, install the Vim "sensible defaults" with:
+
+    $ cd ~/.vim/bundle
+    $ git clone git://github.com/tpope/vim-sensible.git
 
 
 ## iPhone Apps
