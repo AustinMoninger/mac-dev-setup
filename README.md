@@ -321,6 +321,8 @@ Add these lines:
     PATH=/usr/local/share/python:$PATH
     export PATH
     
+#### Pip
+    
 Helpful Pip commands:
   
     $ pip install <package>            # install a package
@@ -328,6 +330,8 @@ Helpful Pip commands:
     $ pip freeze                       # see what is installed
     $ pip uninstall <package>          # uninstall a package
     
+#### Virtualenv
+
 Install Virtualenv so that you can install packages required for a certain project in an isolated folder within the project that will be managed by virtualenv. That way if different project require different versions of packages you do not have to deal with changing the global package version (and keep your global installations fairly clean).
 
     $ pip install virtualenv
@@ -337,7 +341,19 @@ Helpful commands:
     $ virtualenv venv --distribute                          # setup virtualenv in this directory
     $ virtualenv venv --distribute --system-site-packages   # inherit globally installed packages
     $ source venv/bin/activate                              # activate (venv)
-    $ pip install <package>                                 # when (venv) is active, installs package in the venv folder
+    $ pip install <package>                                 # when (venv) is active, installs package in venv folder
+    
+#### NumPy
+
+Lots of mathematical functions:
+
+    $ pip install numpy
+    
+#### Matplotlib
+
+2D plotting library:
+
+    $ pip install matplotlib
 
 
 ## iPhone Apps
