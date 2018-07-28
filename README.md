@@ -15,11 +15,17 @@ That was in part the motivation for this repo; I already have all the files I do
 
 
 ## System Update
+<a href="https://support.apple.com/en-us/HT201541">
+  <img src="https://user-images.githubusercontent.com/28496268/43357864-a12a2176-924d-11e8-846d-8d13ea0ce3ca.png" width="8%" height="8%">
+</a>
 
 First thing you need to do is update the system! For that: **App Store > Updates**
 
 
 ## System Preferences
+<a href="https://support.apple.com/kb/PH25594?locale=en_US&viewlocale=en_US">
+  <img src="https://user-images.githubusercontent.com/28496268/43357865-a2c3bb6e-924d-11e8-91e2-3bcfd528a9bd.png" width="9%" height="9%">
+</a>
 
 Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setupOS.sh` file in this repository).
 
@@ -58,11 +64,9 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
          * ——
          * Downloads folder
          * Trash
-    
-
-    
-   
-
+         
+    * Create a `~/Projects` directory for all my version-controlled projects.
+  
 
 ## Font Downloads
 
@@ -121,7 +125,7 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
 
 ### iTerm2
 <a href="https://iterm2.com/downloads/stable/latest">
-  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="10%" height="20%">
+  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="9%" height="18%">
 </a>
 
 [Install iTerm2](https://iterm2.com/downloads/stable/latest)
@@ -186,7 +190,7 @@ App that tracks how much time you spend on certain apps and websites. It gives y
 
 ### Google Backup and Sync
 <a href="https://www.google.com/drive/download/backup-and-sync/">
-  <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="8%" height="18%">
+  <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="9%" height="19%">
 </a>
 
 [Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
@@ -196,7 +200,7 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 
 ### Magnet
 <a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
-  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="8%" height="18%">
+  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
 </a>
 
 [Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
@@ -207,6 +211,9 @@ Spend just a few minutes memorizing a couple keyboard shortcuts and you are on y
 ## Developer Configurations
 
 ### Homebrew
+<a href="https://brew.sh/">
+  <img src="https://user-images.githubusercontent.com/28496268/43357867-a461e306-924d-11e8-9cb0-633d79c7bded.png" width="9%" height="9%">
+</a>
 
 Package managers make it easier to install and update applications (for Operating Systems) or libraries (for programming languages). The most popular one for OS X is [Homebrew](https://brew.sh/).
 
@@ -219,6 +226,9 @@ Install Homebrew.
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
 ### Pretty Terminal
+<a href="https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.bash_profile">
+  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="8%" height="19%">
+</a>
 
 To make the text in terminal look a little more appealing, follow these commands to overwrite your current Unix user's profile. I shamelessly got these files from [this repository](https://github.com/nicolashery/mac-dev-setup) because it looks really nice.
 
@@ -231,6 +241,9 @@ Note: `ls -lh` can now be run with `ll` and `ls -lha` can now be run with `la`.
 
 
 ### Git
+<a href="https://git-scm.com/">
+  <img src="https://user-images.githubusercontent.com/28496268/43357868-a5ecebc6-924d-11e8-815d-301ec301f13e.png" width="8%" height="8%">
+</a>
 
 Hard to get very far in software development without this one. Add the [.gitconfig](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.gitconfig) file to add some colors to the `status`, `diff`, and `branch` commands.
 
@@ -249,8 +262,11 @@ And then add this so that you do not have to type your username and password eac
 
 
 ### Vim
+<a href="https://www.vim.org/">
+  <img src="https://user-images.githubusercontent.com/28496268/43357869-a6d89cb0-924d-11e8-9cae-8f00ec74ec7e.png" width="8%" height="8%">
+</a>
 
-I only really use Vim when I must, but since it doesn't look all that pretty and [Tim Pope] has put together some nice defaults already, I might as well use them.
+Vim is already installed and I only really use Vim when I must. But since it doesn't look all that pretty and [Tim Pope](https://github.com/tpope) has put together some nice defaults already, I might as well use them.
 
 Install [pathogen.vim](https://github.com/tpope/vim-pathogen) with:
 
