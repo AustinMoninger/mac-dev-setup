@@ -225,6 +225,16 @@ Install Homebrew.
 
     $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     
+Helpful commands:
+
+    $ brew update             # update Homebrew's directory
+    $ brew outdated           # see if any packages need to be updated
+    $ brew upgrade <package>  # update a package
+    $ brew upgrade            # update all outdated packages
+    $ brew cleanup            # remove older versions of installed packages
+    $ brew list --versions    # see what you have installed and their versions
+    
+    
 ### Pretty Terminal
 <a href="https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.bash_profile">
   <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="8%" height="19%">
@@ -283,6 +293,51 @@ Finally, install the Vim "sensible defaults" with:
 
     $ cd ~/.vim/bundle
     $ git clone git://github.com/tpope/vim-sensible.git
+    
+
+### Python
+<a href="https://www.python.org/">
+  <img src="https://user-images.githubusercontent.com/28496268/43358253-1b5585de-9254-11e8-8073-f9e12c2ab26b.png" width="8%" height="8%">
+</a>
+
+OS X comes with [Python](https://www.python.org/) already installed but using Homebrew makes it easier to keep your installation up to date. 
+
+This will install Python 2.7 and any required dependencies:
+
+    $ brew install python
+
+Pip is the package manager for Python and Distribute is its dependency. Upgrade them both:
+
+    $ pip install --upgrade distribute
+    $ pip install --upgrade pip
+    
+Executable scripts from Python packages you install will be put in `/usr/local/share/python`, so let's add it to `$PATH`. Create `.path`in `~`, `.bash_profile` is already set to call this.
+
+    $ cd ~
+    $ vi .path
+ 
+Add these lines:
+
+    PATH=/usr/local/share/python:$PATH
+    export PATH
+    
+Helpful Pip commands:
+  
+    $ pip install <package>            # install a package
+    $ pip install --upgrade <package>  # upgrade a package
+    $ pip freeze                       # see what is installed
+    $ pip uninstall <package>          # uninstall a package
+    
+Install Virtualenv so that you can install packages required for a certain project in an isolated folder within the project that will be managed by virtualenv. That way if different project require different versions of packages you do not have to deal with changing the global package version (and keep your global installations fairly clean).
+
+    $ pip install virtualenv
+    
+Helpful commands:
+
+    $ virtualenv venv --distribute                          # setup virtualenv in this directory
+    $ virtualenv venv --distribute --system-site-packages   # inherit globally installed packages
+    $ source venv/bin/activate                              # activate (venv)
+    $ pip install <package>                                 # when (venv) is active, installs package in the venv folder
 
 
 ## iPhone Apps
