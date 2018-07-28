@@ -280,8 +280,8 @@ Vim is already installed and I only really use Vim when I must. But since it doe
 
 Install [pathogen.vim](https://github.com/tpope/vim-pathogen) with:
 
-    $ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    $ mkdir -p ~/.vim/autoload ~/.vim/bundle
+    $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
     
 Then create a file `~/.vimrc` and paste the following in it:
 
