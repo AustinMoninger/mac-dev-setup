@@ -354,6 +354,18 @@ Lots of mathematical functions:
 2D plotting library:
 
     $ pip install matplotlib
+    
+    
+### Java
+<a href="https://java.com/en/download/">
+  <img src="https://user-images.githubusercontent.com/28496268/43370003-0c3db0aa-933d-11e8-9c8d-b1c1ee7776ac.png" width="7%" height="7%">
+</a>
+
+Another essential.
+
+    $ brew update
+    $ brew install caskroom/cask/brew-cask
+    $ brew cask install --appdir="~/Applications" java
 
 
 ## iPhone Apps
