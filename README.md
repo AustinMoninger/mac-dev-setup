@@ -36,15 +36,11 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     * **Sidebar**, uncheck directories I do not want to see in Finder.
     
 * **System Preferences**
-
-    * **General**, check `Use dark menu bar and Dock` and `Automatically hide and show menu bar`.
     
     * **App Store**, turn off `Automatically check for updates`.
     
     * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!
     
-    * **Dock > Position on screen:**, select `Left`.
-
     * **Desktop & Screen Saver > Desktop**, put [this image](https://www.rice.edu/wallpaper/images/Rice_campus_entrance_2048x1536.jpg) and [this image](https://www.rice.edu/wallpaper/images/Rice_sunset_academic_quad_2048x1536.jpg) into `Pictures` Then set `Change picture:` to `Every day`.
     
     * **Energy Saver**, set `Turn display off after:` slider to `5 minutes`.
@@ -377,9 +373,7 @@ Lots of mathematical functions:
 
 Another essential.
 
-    $ brew update
-    $ brew install caskroom/cask/brew-cask
-    $ brew cask install --appdir="~/Applications" java
+    $ brew cask install java
 
 
 ## iPhone Apps
