@@ -72,9 +72,15 @@ defaults write com.apple.dock autohide-time-modifier -int 0
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
- 
-# Restart Dock
-killall Dock
+
+# Automatically hide and show menu bar
+defaults write NSGlobalDomain _HIHideMenuBar -bool true
+
+# Use a dark menu bar / dock
+defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
+
+# Pin dock to left side of screen
+defaults write com.apple.dock pinning start
 
 # Restart Mac for all changes to take place
 sudo shutdown -r now
