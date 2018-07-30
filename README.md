@@ -88,9 +88,11 @@ Code looks nice in `this font`. It comes installed with Microsoft Office but oth
   <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
 </a>
 
-[Install Google Chrome](https://www.google.com/chrome/)
-
 Are there really any other options?
+
+[Install Google Chrome](https://www.google.com/chrome/): ([must install Homebrew first](https://github.com/AustinMoninger/my-mac-dev-setup#homebrew))
+
+    $ brew cask install google-chrome
 
 #### Google Chrome Extensions
 * [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
@@ -109,9 +111,11 @@ Are there really any other options?
   <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
 </a>
 
-[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106)
-
 I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
+
+[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106):
+
+    $ brew cask install visual-studio-code
 
 #### Configurations
 * Open VS Code from Command Line: 
@@ -128,9 +132,11 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
   <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="9%" height="18%">
 </a>
 
-[Install iTerm2](https://iterm2.com/downloads/stable/latest)
-
 Terminal emulator that is highly configurable.
+
+[Install iTerm2](https://iterm2.com/downloads/stable/latest):
+
+    $ brew cask install iterm2
 
 #### Preferences (⌘,)
 * **General**
@@ -155,9 +161,11 @@ Terminal emulator that is highly configurable.
   <img src="https://user-images.githubusercontent.com/28496268/43025807-c78b9b6c-8c38-11e8-97b8-a678c73adc0f.png" width="8%" height="8%">
 </a>
 
-[Install Spotify](https://download.scdn.co/SpotifyInstaller.zip)
-
 If there is one company that has earned my life-long monthly subscription, it's this one.
+
+[Install Spotify](https://download.scdn.co/SpotifyInstaller.zip):
+
+    $ brew cask install spotify
 
 
 ## Menu Bar App Downloads
@@ -168,9 +176,11 @@ If there is one company that has earned my life-long monthly subscription, it's 
   <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.png" width="8%" height="18%">
 </a>
 
-[Install f.lux](https://justgetflux.com/dlmac.html)
-
 Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
+
+[Install f.lux](https://justgetflux.com/dlmac.html):
+
+    $ brew cask install flux
 
 #### Preferences (⌘,)
 * set color temperature to `6000K`.
@@ -183,9 +193,11 @@ Cool little app that makes the light emitted from your computer less harsh at ni
   <img src="https://user-images.githubusercontent.com/28496268/42916114-32b00b9c-8ac9-11e8-9c52-8a01b1e6fa7d.png" width="8%" height="18%">
 </a>
 
-[Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg)
-
 App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year. Awareness is the first step.
+
+[Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg):
+
+     $ brew cask install rescuetime
 
 
 ### Google Backup and Sync
@@ -193,9 +205,11 @@ App that tracks how much time you spend on certain apps and websites. It gives y
   <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="9%" height="19%">
 </a>
 
-[Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/)
-
 Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
+
+[Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/):
+
+    $ brew cask install google-backup-and-sync
 
 
 ### Magnet
