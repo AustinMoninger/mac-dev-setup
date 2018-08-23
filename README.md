@@ -395,3 +395,11 @@ And finally, here is a list of iPhone apps that I have installed that I do not w
 * [Spotify](https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8). Ol' faithful.
 
 
+# TODO
+update Mac Dev Setup
+	•	organize commands on setupOS.sh
+	•	add IntelliJ
+	•	find defaults write commands for system preferences
+	•	move dev configurations after system preferences
+	•	put app installations in setupOS
+
