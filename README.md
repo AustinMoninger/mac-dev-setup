@@ -41,7 +41,7 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     
     * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!
     
-    * **Desktop & Screen Saver > Desktop**, put [this image](https://www.rice.edu/wallpaper/images/Rice_campus_entrance_2048x1536.jpg) and [this image](https://www.rice.edu/wallpaper/images/Rice_sunset_academic_quad_2048x1536.jpg) into `Pictures` Then set `Change picture:` to `Every day`.
+    * **Desktop & Screen Saver > Desktop**, put [this image](https://user-images.githubusercontent.com/28496268/46102770-bcb37c00-c194-11e8-81f9-46afbdcd8da6.jpg) into `Pictures`.
     
     * **Energy Saver**, set `Turn display off after:` slider to `5 minutes`.
     
