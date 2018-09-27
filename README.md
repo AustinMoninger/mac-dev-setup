@@ -179,7 +179,7 @@ Cool little app that makes the light emitted from your computer less harsh at ni
     $ brew cask install flux
 
 #### Preferences (⌘,)
-* set color temperature to `6000K`.
+* set color temperature for `Daytime` to `4500K`, `Sunset` to `3500K`, and `Bedtime` to `2000K`.
 
 * select `Daytime` and check the box that says `Start at login`.
     
