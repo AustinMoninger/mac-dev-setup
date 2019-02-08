@@ -397,9 +397,11 @@ And finally, here is a list of iPhone apps that I have installed that I do not w
 
 # TODO
 update Mac Dev Setup
-	•	organize commands on setupOS.sh
-	•	add IntelliJ
-	•	find defaults write commands for system preferences
-	•	move dev configurations after system preferences
-	•	put app installations in setupOS
+* organize commands on setupOS.sh
+* add IntelliJ/PyCharm
+* find defaults write commands for system preferences
+* move dev configurations after system preferences
+* put app installations in setupOS
+* add VSCode extensions that I like
+* Stretchly?
 
