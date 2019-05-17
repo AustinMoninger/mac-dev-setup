@@ -7,12 +7,10 @@ That was in part the motivation for this repo; I already have all the files I do
 ### Table of Contents
 1. [System Update](https://github.com/AustinMoninger/my-mac-dev-setup#system-update)
 2. [System Preferences](https://github.com/AustinMoninger/my-mac-dev-setup#system-preferences)
-3. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
-4. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
-5. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
-6. [Developer Configurations](https://github.com/AustinMoninger/my-mac-dev-setup#developer-configurations)
-7. [iPhone Apps](https://github.com/AustinMoninger/my-mac-dev-setup#iphone-apps)
-
+3. [Developer Configurations](https://github.com/AustinMoninger/my-mac-dev-setup#developer-configurations)
+4. [Font Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#font-downloads)
+5. [App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#app-downloads)
+6. [Menu Bar App Downloads](https://github.com/AustinMoninger/my-mac-dev-setup#menu-bar-app-downloads)
 
 ## System Update
 <a href="https://support.apple.com/en-us/HT201541">
@@ -62,161 +60,6 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
          * Trash
          
     * Create a `~/Projects` directory for all my version-controlled projects.
-  
-
-## Font Downloads
-
-### Consolas Font Family
-<a href="http://www.fontpalace.com/font-download/Consolas/">
-  <img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
-</a>
-
-[Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
-
-Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
-
-
-## App Downloads
-
-
-### Google Chrome 
-<a href="https://www.google.com/chrome/">
-  <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
-</a>
-
-Are there really any other options?
-
-[Install Google Chrome](https://www.google.com/chrome/): ([must install Homebrew first](https://github.com/AustinMoninger/my-mac-dev-setup#homebrew))
-
-    $ brew cask install google-chrome
-
-#### Google Chrome Extensions
-* [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
-
-* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into [wordcounter.net](https://wordcounter.net/) to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
-
-* [Empty New Tab Page](https://chrome.google.com/webstore/detail/empty-new-tab-page/dpjamkmjmigaoobjbekmfgabipmfilij). Beautiful, blank new tab page that doesn't have the distraction ridden thumbnails that the default new tab page does.
-
-* [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US). Self-explanatory (assuming that you are okay with not supporting websites via ads).
-
-* [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
-
-
-### Visual Studio Code
-<a href="https://go.microsoft.com/fwlink/?LinkID=534106">
-  <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
-</a>
-
-I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
-
-[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106):
-
-    $ brew cask install visual-studio-code
-
-#### Configurations
-* Open VS Code from Command Line: 
-
-    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`.
-   
-* **Preferences > Settings**
-
-    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`.
-
-
-### iTerm2
-<a href="https://iterm2.com/downloads/stable/latest">
-  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="9%" height="18%">
-</a>
-
-Terminal emulator that is highly configurable.
-
-[Install iTerm2](https://iterm2.com/downloads/stable/latest):
-
-    $ brew cask install iterm2
-
-#### Preferences (⌘,)
-* **General**
-
-    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`.
-    
-* **Profiles**
-
-    * Create a new profile and call it `Austin`. Select `Other Actions...` and `Set as Default`.
-    
-    * Under **Text**, change `Font` to Consolas 14pt.
-    
-    * Under **Colors > Color Presets...**, select Solarized Dark.
-    
-* **Window**
-
-    * Change `Columns` to 110 and `Rows` to 30.
-    
-   
-### Spotify
-<a href="https://download.scdn.co/SpotifyInstaller.zip">
-  <img src="https://user-images.githubusercontent.com/28496268/43025807-c78b9b6c-8c38-11e8-97b8-a678c73adc0f.png" width="8%" height="8%">
-</a>
-
-If there is one company that has earned my life-long monthly subscription, it's this one.
-
-[Install Spotify](https://download.scdn.co/SpotifyInstaller.zip):
-
-    $ brew cask install spotify
-
-
-## Menu Bar App Downloads
-
-
-### f.lux
-<a href="https://justgetflux.com/dlmac.html">
-  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.png" width="8%" height="18%">
-</a>
-
-Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
-
-[Install f.lux](https://justgetflux.com/dlmac.html):
-
-    $ brew cask install flux
-
-#### Preferences (⌘,)
-* set color temperature for `Daytime` to `4500K`, `Sunset` to `3500K`, and `Bedtime` to `2000K`.
-
-* select `Daytime` and check the box that says `Start at login`.
-    
-    
-### RescueTime
-<a href="https://www.rescuetime.com/installers/RescueTimeInstaller.pkg">
-  <img src="https://user-images.githubusercontent.com/28496268/42916114-32b00b9c-8ac9-11e8-9c52-8a01b1e6fa7d.png" width="8%" height="18%">
-</a>
-
-App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year. Awareness is the first step.
-
-[Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg):
-
-     $ brew cask install rescuetime
-
-
-### Google Backup and Sync
-<a href="https://www.google.com/drive/download/backup-and-sync/">
-  <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="9%" height="19%">
-</a>
-
-Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
-
-[Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/):
-
-    $ brew cask install google-backup-and-sync
-
-
-### Magnet
-<a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
-  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
-</a>
-
-[Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
-
-Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
-
 
 ## Developer Configurations
 
@@ -376,23 +219,160 @@ Another essential.
     $ brew cask install java
 
 
-## iPhone Apps
 
-And finally, here is a list of iPhone apps that I have installed that I do not want to have to remember if I lose my phone or it is stolen.
+## Font Downloads
 
-* [LastPass](https://itunes.apple.com/us/app/lastpass-password-manager/id324613447?platform=iphone&preserveScrollPosition=true#platform/iphone). Online password repository. Free!
-* [Google Maps](https://itunes.apple.com/us/app/google-maps-gps-navigation/id585027354?mt=8). Until Apple Maps gets it together.
-* [Strava](https://itunes.apple.com/us/app/strava-run-ride-or-swim/id426826309?mt=8). Record your mileage.
-* [Canvas](https://itunes.apple.com/us/app/canvas-student/id480883488?mt=8). Rice things.
-* [Scannable](https://itunes.apple.com/us/app/evernote-scannable/id883338188?mt=8). Free scanner in your pocket.
-* [Shazam](https://itunes.apple.com/us/app/evernote-scannable/id883338188?mt=8). Figure out what song is playing.
-* [Cisco AnyConnect](https://itunes.apple.com/us/app/cisco-anyconnect/id1135064690?mt=8). Encrypt all the things!
-* [Duo Mobile](https://itunes.apple.com/us/app/duo-mobile/id422663827?mt=8). I am probably getting a little paranoid.
-* [Ride Systems](https://itunes.apple.com/us/app/ride-systems/id455913117?mt=8). More Rice things.
-* [Uber](https://itunes.apple.com/us/app/uber/id368677368?mt=8). Only recently tried this for the first time.
-* [GroupMe](https://itunes.apple.com/us/app/groupme/id392796698?mt=8), [Messenger](https://itunes.apple.com/us/app/messenger/id454638411?mt=8), [Snapchat](https://itunes.apple.com/us/app/snapchat/id447188370?mt=8), [Slack](https://itunes.apple.com/us/app/slack/id618783545?mt=8). Can we just pick one?
-* [Chrome](https://itunes.apple.com/us/app/google-chrome/id535886823?mt=8), [Gmail](https://itunes.apple.com/us/app/gmail-email-by-google/id422689480?mt=8), [Drive](https://itunes.apple.com/us/app/google-drive/id507874739?mt=8), [Docs](https://itunes.apple.com/us/app/google-docs-sync-edit-share/id842842640?mt=8), [Photos](https://itunes.apple.com/us/app/google-photos/id962194608?mt=8). I probably trust this company too much.
-* [Spotify](https://itunes.apple.com/us/app/spotify-music/id324684580?mt=8). Ol' faithful.
+### Consolas Font Family
+<a href="http://www.fontpalace.com/font-download/Consolas/">
+  <img src="https://user-images.githubusercontent.com/28496268/42415599-d96530f6-8219-11e8-8ee6-e4fa7c96c5e6.jpg" width="10%" height="15%">
+</a>
+
+[Install Consolas Font Family](http://www.fontpalace.com/font-download/Consolas/)
+
+Code looks nice in `this font`. It comes installed with Microsoft Office but otherwise you have to download it.
+
+
+## App Downloads
+
+
+### Google Chrome 
+<a href="https://www.google.com/chrome/">
+  <img src="https://user-images.githubusercontent.com/28496268/42400783-8e1829a0-8138-11e8-91b9-85ba7fa7ac9a.png" width="10%" height="10%">
+</a>
+
+Are there really any other options?
+
+[Install Google Chrome](https://www.google.com/chrome/): ([must install Homebrew first](https://github.com/AustinMoninger/my-mac-dev-setup#homebrew))
+
+    $ brew cask install google-chrome
+
+#### Google Chrome Extensions
+* [Just Read](https://chrome.google.com/webstore/detail/just-read/dgmanlpmmkibanfdgjocnabmcaclkmod?hl=en). Strips webpages down to purely the text so you can actually focus and read the material contained within them. Next step is to find an extension that strips away hypertext links too (let me know if you find one).
+
+* [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into [wordcounter.net](https://wordcounter.net/) to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
+
+* [Empty New Tab Page](https://chrome.google.com/webstore/detail/empty-new-tab-page/dpjamkmjmigaoobjbekmfgabipmfilij). Beautiful, blank new tab page that doesn't have the distraction ridden thumbnails that the default new tab page does.
+
+* [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US). Self-explanatory (assuming that you are okay with not supporting websites via ads).
+
+* [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
+
+
+### Visual Studio Code
+<a href="https://go.microsoft.com/fwlink/?LinkID=534106">
+  <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
+</a>
+
+I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
+
+[Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106):
+
+    $ brew cask install visual-studio-code
+
+#### Configurations
+* Open VS Code from Command Line: 
+
+    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`.
+   
+* **Preferences > Settings**
+
+    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`.
+
+
+### iTerm2
+<a href="https://iterm2.com/downloads/stable/latest">
+  <img src="https://user-images.githubusercontent.com/28496268/42415621-6dbdf21a-821a-11e8-86e4-3331f86ba1b5.png" width="9%" height="18%">
+</a>
+
+Terminal emulator that is highly configurable.
+
+[Install iTerm2](https://iterm2.com/downloads/stable/latest):
+
+    $ brew cask install iterm2
+
+#### Preferences (⌘,)
+* **General**
+
+    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`.
+    
+* **Profiles**
+
+    * Create a new profile and call it `Austin`. Select `Other Actions...` and `Set as Default`.
+    
+    * Under **Text**, change `Font` to Consolas 14pt.
+    
+    * Under **Colors > Color Presets...**, select Solarized Dark.
+    
+* **Window**
+
+    * Change `Columns` to 110 and `Rows` to 30.
+    
+   
+### Spotify
+<a href="https://download.scdn.co/SpotifyInstaller.zip">
+  <img src="https://user-images.githubusercontent.com/28496268/43025807-c78b9b6c-8c38-11e8-97b8-a678c73adc0f.png" width="8%" height="8%">
+</a>
+
+If there is one company that has earned my life-long monthly subscription, it's this one.
+
+[Install Spotify](https://download.scdn.co/SpotifyInstaller.zip):
+
+    $ brew cask install spotify
+
+
+## Menu Bar App Downloads
+
+
+### f.lux
+<a href="https://justgetflux.com/dlmac.html">
+  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.png" width="8%" height="18%">
+</a>
+
+Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
+
+[Install f.lux](https://justgetflux.com/dlmac.html):
+
+    $ brew cask install flux
+
+#### Preferences (⌘,)
+* set color temperature for `Daytime` to `4500K`, `Sunset` to `3500K`, and `Bedtime` to `2000K`.
+
+* select `Daytime` and check the box that says `Start at login`.
+    
+    
+### RescueTime
+<a href="https://www.rescuetime.com/installers/RescueTimeInstaller.pkg">
+  <img src="https://user-images.githubusercontent.com/28496268/42916114-32b00b9c-8ac9-11e8-9c52-8a01b1e6fa7d.png" width="8%" height="18%">
+</a>
+
+App that tracks how much time you spend on certain apps and websites. It gives you a productivity score that you can look by the day/week/month/year. Awareness is the first step.
+
+[Install RescueTime](https://www.rescuetime.com/installers/RescueTimeInstaller.pkg):
+
+     $ brew cask install rescuetime
+
+
+### Google Backup and Sync
+<a href="https://www.google.com/drive/download/backup-and-sync/">
+  <img src="https://user-images.githubusercontent.com/28496268/42916257-f0de7c98-8ac9-11e8-81f6-cb4f31d93428.png" width="9%" height="19%">
+</a>
+
+Backs up everything on your machine that you choose onto Google Drive. Instant peace of mind.
+
+[Install Google Backup and Sync](https://www.google.com/drive/download/backup-and-sync/):
+
+    $ brew cask install google-backup-and-sync
+
+
+### Magnet
+<a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
+  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
+</a>
+
+[Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
+
+Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
+
 
 
 # TODO
@@ -400,8 +380,6 @@ update Mac Dev Setup
 * organize commands on setupOS.sh
 * add IntelliJ/PyCharm
 * find defaults write commands for system preferences
-* move dev configurations after system preferences
-* put app installations in setupOS
 * add VSCode extensions that I like
 * Stretchly?
 
