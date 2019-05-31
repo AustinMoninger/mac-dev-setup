@@ -383,3 +383,4 @@ update Mac Dev Setup
 * add VSCode extensions that I like
 * add Alfred
 * Add CLUT and Quick Tabs to Chrome extensions
+* add tap to click preference in trackpad settings
