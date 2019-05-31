@@ -381,5 +381,5 @@ update Mac Dev Setup
 * add IntelliJ/PyCharm
 * find defaults write commands for system preferences
 * add VSCode extensions that I like
-* Stretchly?
-
+* add Alfred
+* Add CLUT and Quick Tabs to Chrome extensions
