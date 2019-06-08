@@ -384,3 +384,6 @@ update Mac Dev Setup
 * add Alfred
 * Add CLUT and Quick Tabs to Chrome extensions
 * add tap to click preference in trackpad settings
+* add JSON Formatter Chrome extension
+* add remove items everywhere option on Google Backup and Sync
+* add unlimited scrollback on iTerm
