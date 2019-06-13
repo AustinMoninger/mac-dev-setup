@@ -387,3 +387,5 @@ update Mac Dev Setup
 * add JSON Formatter Chrome extension
 * add remove items everywhere option on Google Backup and Sync
 * add unlimited scrollback on iTerm
+* remove hot corners, just use Alfred
+* add hotkeys in VS code for jumping back and forth (cmd + \[) and go to declaration (cmd + click)
