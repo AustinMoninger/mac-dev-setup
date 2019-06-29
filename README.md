@@ -389,3 +389,4 @@ update Mac Dev Setup
 * add unlimited scrollback on iTerm
 * remove hot corners, just use Alfred
 * add hotkeys in VS code for jumping back and forth (cmd + \[) and go to declaration (cmd + click)
+* add hotkeys for CLUT to jump back and forth between tabs in chrome://extensions/shortcuts
