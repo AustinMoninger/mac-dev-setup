@@ -390,3 +390,4 @@ update Mac Dev Setup
 * remove hot corners, just use Alfred
 * add hotkeys in VS code for jumping back and forth (cmd + \[) and go to declaration (cmd + click)
 * add hotkeys for CLUT to jump back and forth between tabs in chrome://extensions/shortcuts
+* add Loom video recording chrome extension
