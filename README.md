@@ -215,7 +215,7 @@ Format JSON that appears in your browser.
 Fuzzy search your open tabs.
 
 * [CLUT: Cycle Last Used Tabs](https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn?hl=en).
-Jump forward and back through recently used tabs like you would in code. Go to (chrome://extensions/shortcuts) to change Go Forward to `cmd + o` and Go Back to `cmd + i`.
+Jump forward and back through recently used tabs like you would in code. Go to [chrome://extensions/shortcuts] to change `Go Back` to `cmd + i` and `Go Forward` to `cmd + o`.
 
 
 ### Visual Studio Code
