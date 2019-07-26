@@ -25,7 +25,7 @@ First thing you need to do is update the system! For that: **App Store > Updates
   <img src="https://user-images.githubusercontent.com/28496268/43357865-a2c3bb6e-924d-11e8-91e2-3bcfd528a9bd.png" width="9%" height="9%">
 </a>
 
-Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setupOS.sh` file in this repository).
+Here are some preferences I like to tweak on my new Mac. (All the ones that I could not find `defaults write` commands for that is. The rest of my preferences can be run with the `setup.sh` file in this repository).
 
 * **Finder > Preferences**
     
@@ -41,11 +41,13 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     
     * **Desktop & Screen Saver > Desktop**, put [this image](https://user-images.githubusercontent.com/28496268/46102770-bcb37c00-c194-11e8-81f9-46afbdcd8da6.jpg) into `Pictures`.
     
-    * **Energy Saver**, set `Turn display off after:` slider to `5 minutes`.
+    * **Energy Saver**, set `Turn display off after:` slider to `15 minutes`.
     
     * **Security & Privacy > General**, set `Require password after sleep begins` to `immediately`.
     
     * **Security & Privacy > FileVault**, set `Turn On FileVault`. Just do it.
+
+    * **Trackpad**, check `Tap to Click`.
     
 * **Miscellaneous**
 
@@ -54,7 +56,7 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
          * Chrome
          * Calendar
          * Spotify
-         * Notes
+         * Notes (to be replaced by Notion?)
          * ——
          * Downloads folder
          * Trash
@@ -100,28 +102,19 @@ To make the text in terminal look a little more appealing, follow these commands
     $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.bash_prompt
     $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.aliases
 
-Note: `ls -lh` can now be run with `ll` and `ls -lha` can now be run with `la`.
-
 
 ### Git
 <a href="https://git-scm.com/">
   <img src="https://user-images.githubusercontent.com/28496268/43357868-a5ecebc6-924d-11e8-815d-301ec301f13e.png" width="8%" height="8%">
 </a>
 
-Hard to get very far in software development without this one. Add the [.gitconfig](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.gitconfig) file to add some colors to the `status`, `diff`, and `branch` commands.
+Hard to get very far in software development without this one. Add the [.gitconfig](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/.gitconfig) file to add some colors to the git commands.
 
     $ brew install git
     $ cd ~
     $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.gitconfig
-    
-Then define your Git user:
 
-    $ git config --global user.name "Name"
-    $ git config --global user.email "email@email.com"
-    
-And then add this so that you do not have to type your username and password each time you push via HTTPS:
-
-    $ git config --global credential.helper osxkeychain
+Note: My email and name are in this config file.
 
 
 ### Vim
@@ -135,18 +128,11 @@ Install [pathogen.vim](https://github.com/tpope/vim-pathogen) with:
 
     $ mkdir -p ~/.vim/autoload ~/.vim/bundle
     $ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-    
-Then create a file `~/.vimrc` and paste the following in it:
 
-    execute pathogen#infect()
-    syntax on
-    filetype plugin indent on
-    
-Finally, install the Vim "sensible defaults" with:
+Add the `~/.vimrc` file:
 
-    $ cd ~/.vim/bundle
-    $ git clone git://github.com/tpope/vim-sensible.git
-    
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.vimrc
+
 
 ### Python
 <a href="https://www.python.org/">
@@ -155,25 +141,10 @@ Finally, install the Vim "sensible defaults" with:
 
 OS X comes with [Python](https://www.python.org/) already installed but using Homebrew makes it easier to keep your installation up to date. 
 
-This will install Python 2.7 and any required dependencies:
+This will install Python 3.x and any required dependencies:
 
-    $ brew install python
+    $ brew install python3
 
-Pip is the package manager for Python and Distribute is its dependency. Upgrade them both:
-
-    $ pip install --upgrade distribute
-    $ pip install --upgrade pip
-    
-Executable scripts from Python packages you install will be put in `/usr/local/share/python`, so let's add it to `$PATH`. Create `.path`in `~`, `.bash_profile` is already set to call this.
-
-    $ cd ~
-    $ vi .path
- 
-Add these lines:
-
-    PATH=/usr/local/share/python:$PATH
-    export PATH
-    
 #### Pip
     
 Helpful Pip commands:
@@ -196,29 +167,6 @@ Helpful commands:
     $ source venv/bin/activate                              # activate (venv)
     $ pip install <package>                                 # when (venv) is active, installs package in venv folder
     
-#### NumPy
-
-Lots of mathematical functions:
-
-    $ pip install numpy
-    
-#### Matplotlib
-
-2D plotting library:
-
-    $ pip install matplotlib
-    
-    
-### Java
-<a href="https://java.com/en/download/">
-  <img src="https://user-images.githubusercontent.com/28496268/43370003-0c3db0aa-933d-11e8-9c8d-b1c1ee7776ac.png" width="7%" height="7%">
-</a>
-
-Another essential.
-
-    $ brew cask install java
-
-
 
 ## Font Downloads
 
@@ -257,6 +205,18 @@ Are there really any other options?
 
 * [DF YouTube](https://chrome.google.com/webstore/detail/df-youtube-distraction-fr/mjdepdfccjgcndkmemponafgioodelna). Stands for Distraction Free YouTube. Configurable to hide comments and/or related videos. Perfect for when I am trying to use YouTube for school/work and don't want to go down a rabbit hole of watching related content.
 
+* [Loom](https://chrome.google.com/webstore/detail/loom-video-recorder-scree/liecbddmkiiihnedobmlmillhodjkdmb?hl=en-US).
+Incredible tool to seamlessly record screen videos and share them.
+
+* [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?hl=en).
+Format JSON that appears in your browser.
+
+* [Quick Tabs](https://chrome.google.com/webstore/detail/quick-tabs/jnjfeinjfmenlddahdjdmgpbokiacbbb?hl=en).
+Fuzzy search your open tabs.
+
+* [CLUT: Cycle Last Used Tabs](https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn?hl=en).
+Jump forward and back through recently used tabs like you would in code. Go to (chrome://extensions/shortcuts) to change Go Forward to `cmd + o` and Go Back to `cmd + i`.
+
 
 ### Visual Studio Code
 <a href="https://go.microsoft.com/fwlink/?LinkID=534106">
@@ -276,7 +236,10 @@ I just got into using this over Atom. I'll add extensions/plugins here when I fi
    
 * **Preferences > Settings**
 
-    * in the User Settings JSON file, add `"editor.fontFamily": "Consolas"` and `"editor.fontSize": 14`.
+    * Put `.vscode/settings.json` in the settings.
+    * Put `.vscode/keybindings.json` in the settings.
+
+* TODO: extensions I like will go here
 
 
 ### iTerm2
@@ -302,6 +265,8 @@ Terminal emulator that is highly configurable.
     * Under **Text**, change `Font` to Consolas 14pt.
     
     * Under **Colors > Color Presets...**, select Solarized Dark.
+
+    * Under **Terminal**, check `Unlimited scrollback`.
     
 * **Window**
 
@@ -318,6 +283,24 @@ If there is one company that has earned my life-long monthly subscription, it's 
 [Install Spotify](https://download.scdn.co/SpotifyInstaller.zip):
 
     $ brew cask install spotify
+
+
+### Alfred
+<a href="https://www.alfredapp.com/powerpack/">
+  <img src="https://user-images.githubusercontent.com/28496268/61932862-3fce6b80-af39-11e9-96f9-40d697256f05.png" width="8%" height="8%">
+</a>
+
+One of the most powerful tools on my Mac! Replacement Spotlight.
+
+[Install Alfred](https://www.alfredapp.com/powerpack/):
+
+    $ brew cask install alfred
+
+Look through `Features` and pick things that make sense. Get a Powerpack license.
+
+Workflows to download:
+
+  * `Open with Visual Studio Code`
 
 
 ## Menu Bar App Downloads
@@ -372,22 +355,3 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 [Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
 
 Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
-
-
-
-# TODO
-update Mac Dev Setup
-* organize commands on setupOS.sh
-* add IntelliJ/PyCharm
-* find defaults write commands for system preferences
-* add VSCode extensions that I like
-* add Alfred
-* Add CLUT and Quick Tabs to Chrome extensions
-* add tap to click preference in trackpad settings
-* add JSON Formatter Chrome extension
-* add remove items everywhere option on Google Backup and Sync
-* add unlimited scrollback on iTerm
-* remove hot corners, just use Alfred
-* add hotkeys in VS code for jumping back and forth (cmd + \[) and go to declaration (cmd + click)
-* add hotkeys for CLUT to jump back and forth between tabs in chrome://extensions/shortcuts
-* add Loom video recording chrome extension
