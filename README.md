@@ -199,7 +199,7 @@ Are there really any other options?
 
 * [Grammarly](https://chrome.google.com/webstore/detail/grammarly-for-chrome/kbfnbcaeplbcioakkpcpgfkobkghlhen). Checks your grammar and spelling for you in most places within Chrome. Doesn't work in Google Docs for some reason (I typically just paste my text into [wordcounter.net](https://wordcounter.net/) to have Grammarly check it real quick). Premium version has some extra bells and whistles that I don't pay for.
 
-* [Empty New Tab Page](https://chrome.google.com/webstore/detail/empty-new-tab-page/dpjamkmjmigaoobjbekmfgabipmfilij). Beautiful, blank new tab page that doesn't have the distraction ridden thumbnails that the default new tab page does.
+* [Motivation](https://chrome.google.com/webstore/detail/motivation/ofdgfpchbidcgncgfpdlpclnpaemakoj?hl=en). My favorite new tab page.
 
 * [Adblock Plus](https://chrome.google.com/webstore/detail/adblock-plus/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en-US). Self-explanatory (assuming that you are okay with not supporting websites via ads).
 
@@ -223,16 +223,19 @@ Jump forward and back through recently used tabs like you would in code. Go to [
   <img src="https://user-images.githubusercontent.com/28496268/42401177-0f95731a-813a-11e8-8ed7-3c9c004fbd97.png" width="8%" height="8%">
 </a>
 
-I just got into using this over Atom. I'll add extensions/plugins here when I find some that I like.
+My go-to text editor.
 
 [Install Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106):
 
     $ brew cask install visual-studio-code
+    
+Other editors and IDEs:
+
+    $ brew cask install atom
+    $ brew cask install pycharm-ce
+
 
 #### Configurations
-* Open VS Code from Command Line: 
-
-    * Open the **Command Palette (⇧⌘P)** and type `shell commmand` to find `Shell Command: Install 'code command in PATH`.
    
 * **Preferences > Settings**
 
@@ -301,6 +304,18 @@ Look through `Features` and pick things that make sense. Get a Powerpack license
 Workflows to download:
 
   * `Open with Visual Studio Code`
+  
+  
+### Postman
+<a href="https://www.getpostman.com/downloads/">
+  <img src="https://user-images.githubusercontent.com/28496268/61991899-b045bd00-b00b-11e9-9aa1-24cd577cf38d.png" width="8%" height="8%">
+</a>
+
+Helpful for API development.
+
+[Install Postman](https://www.getpostman.com/downloads/):
+
+    $ brew cask install postman
 
 
 ## Menu Bar App Downloads
@@ -354,4 +369,15 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 
 [Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
 
-Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again.
+Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again. Only available on the App Store.
+
+### Magnet
+<a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
+  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
+</a>
+
+[Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
+
+Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again. Only available on the App Store.
+
+
