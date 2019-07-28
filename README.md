@@ -391,14 +391,3 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
 [Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
 
 Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again. Only available on the App Store.
-
-### Magnet
-<a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
-  <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
-</a>
-
-[Install Magnet](https://itunes.apple.com/us/app/magnet/id441258766?mt=12)
-
-Spend just a few minutes memorizing a couple keyboard shortcuts and you are on your way to never clicking-and-dragging to resize a window ever again. Only available on the App Store.
-
-
