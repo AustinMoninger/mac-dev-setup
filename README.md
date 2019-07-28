@@ -166,6 +166,14 @@ Helpful commands:
     $ virtualenv venv --distribute --system-site-packages   # inherit globally installed packages
     $ source venv/bin/activate                              # activate (venv)
     $ pip install <package>                                 # when (venv) is active, installs package in venv folder
+
+
+### Node
+<a href="https://nodejs.org/en/download/">
+  <img src="https://user-images.githubusercontent.com/28496268/62000735-67394b80-b093-11e9-8c25-7ada81151a02.png" width="8%" height="8%">
+</a>
+
+    $ brew install node
     
 
 ## Font Downloads
@@ -316,6 +324,19 @@ Helpful for API development.
 [Install Postman](https://www.getpostman.com/downloads/):
 
     $ brew cask install postman
+    
+
+### Sequel Pro
+<a href="https://sequelpro.com/download">
+  <img src="https://user-images.githubusercontent.com/28496268/61997795-ea3eaf80-b05b-11e9-9385-44073c2103b2.png" width="8%" height="8%">
+</a>
+
+Nice UI for querying databases.
+
+[Install Sequel Pro](https://sequelpro.com/download/):
+
+    $ brew cask install sequel-pro
+    
 
 
 ## Menu Bar App Downloads
