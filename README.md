@@ -1,5 +1,7 @@
 # My Mac Dev Environment Setup
 
+*All in one setup script found in [setup.sh](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/setup.sh). There's a handful of things to do manually like downloading Magnet from the App Store and some System Preferences configurations.*
+
 I try to stay digitally minimalistic, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
 That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the beginning of my internship in the summer of 2018 I received a computer that was a clean slate, and instead of being able to configure it how I liked all at once, I had to slowly recall all the settings I liked over the course of the summer. Now with this page, I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check it out too.
