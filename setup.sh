@@ -1,3 +1,98 @@
+#!/usr/bin/env bash
+
+# Color output: usage color "31;5" "string"
+color() {
+  printf '\033[%sm%s\033[m\n' "$@"
+}
+
+color '36;1' "
+     ______     __  __     ______     ______   __     __   __    
+    /\  __ \   /\ \/\ \   /\  ___\   /\__  _\ /\ \   /\ "-.\ \   
+    \ \  __ \  \ \ \_\ \  \ \___  \  \/_/\ \/ \ \ \  \ \ \-.  \  
+     \ \_\ \_\  \ \_____\  \/\_____\    \ \_\  \ \_\  \ \_\\"\_\ 
+      \/_/\/_/   \/_____/   \/_____/     \/_/   \/_/   \/_/ \/_/ 
+                                                             
+     This script sets up a Mac the way I like it: https://github.com/AustinMoninger/my-mac-dev-setup
+"
+
+# Install Xcode command line tools
+color '36;1' '📦  💻  Checking Xcode tools are installed'
+xcode-select --install
+
+# Install Homebrew
+color '36;1' '📦  🍺  Installing Homebrew'
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Install packages
+color '36;1' '📦  🍺  Installing packages via Homebrew'
+brew install \
+  python \
+  python3 \
+  node \
+  redis \
+  postgresql \
+
+# Install pip
+color '36;1' '📦  🐍  Installing Pip - pip requires a password to be installed'
+easy_install pip
+
+# Install Python packages
+color '36;1' '📦  🐍  Installing Python packages'
+pip install virtualenv
+
+# Install applications via Homebrew 
+color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
+brew cask install google-chrome
+color '36;1' '📦  ⌨️  Installing VS Code via Homebrew'
+brew cask install visual-studio-code
+color '36;1' '📦  🔬  Installing Atom via Homebrew'
+brew cask install atom
+color '36;1' '📦  🐍  Installing PyCharm CE via Homebrew'
+brew cask install pycharm-ce
+color '36;1' '📦  🎧  Installing Spotify via Homebrew'
+brew cask install spotify
+color '36;1' '📦  🎩  Installing Alfred via Homebrew'
+brew cask install alfred
+color '36;1' '📦  🚼  Installing Postman via Homebrew'
+brew cask install postman
+color '36;1' '📦  🥞  Installing Sequel Pro via Homebrew'
+brew cask install sequel-pro
+color '36;1' '📦  📱  Installing Slack via Homebrew'
+brew cask install slack
+
+# Install Menu Bar Applications via Homebrew 
+color '36;1' '📦  🌅  Installing f.lux via Homebrew'
+brew cask install flux
+color '36;1' '📦  ⏰  Installing RescueTime via Homebrew'
+brew cask install rescuetime
+color '36;1' '📦  🌥️  Installing Google Backup and Sync via Homebrew'
+brew cask install google-backup-and-sync
+
+# Create ~/Projects directory
+color '36;1' '📦  📽️  Creating ~/Projects directory'
+mkdir ~/Projects
+
+# Fetch config files from GitHub
+cd ~
+color '36;1' '📦  🖥️  Getting ~/.gitconfig file from GitHub'
+curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.gitconfig
+
+color '36;1' '📦  🖥️  Getting ~/.vimrc file from GitHub'
+cd ~
+mkdir -p ~/.vim/autoload ~/.vim/bundle
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.vimrc
+
+color '36;1' '📦  🖥️  Getting .bash* files from GitHub'
+cd ~
+curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.bash_profile
+curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.bash_prompt
+curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.aliases
+
+
+# Set default write configurations
+color '36;1' '📦  ⚡️  Set default write configurations'
+
 # Turn on key repeat 
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -79,5 +174,7 @@ defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
 # Pin dock to left side of screen
 defaults write com.apple.dock pinning start
 
-# Restart Mac for all changes to take place
-sudo shutdown -r now
+color '32;1' '✅  🎉  Done!'
+color '32;1' '💻 Restart your computer for all changes to take place!'
+color '32;1' '📖 Be sure to configure iTerm2, System Preferences, VS Code, and '
+color '32;1' '📖 sign in to the App Store to download Magnet.'
