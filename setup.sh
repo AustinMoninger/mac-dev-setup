@@ -33,8 +33,10 @@ brew install \
   postgresql \
 
 # Install pip
-color '36;1' '📦  🐍  Installing Pip - pip requires a password to be installed'
-easy_install pip
+color '36;1' '📦  🐍  Installing Pip'
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+rm get-pip.py
 
 # Install Python packages
 color '36;1' '📦  🐍  Installing Python packages'
@@ -138,9 +140,6 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 # Change default Finder view to column view
 defaults write com.apple.Finder FXPreferredViewStyle clmv
-
-# Make iTunes not executable (for hitting play button)
-sudo chmod -x /Applications/iTunes.app/Contents/MacOS/iTunes
 
 # Show all file name extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
