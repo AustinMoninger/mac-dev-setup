@@ -39,7 +39,7 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     
     * **App Store**, turn off `Automatically check for updates`.
     
-    * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!
+    * **Dock**, check `Automatically hide and show dock`. Maximize your screen real estate!, also uncheck `Show recent applications in Dock`.
     
     * **Desktop & Screen Saver > Desktop**, put [this image](https://user-images.githubusercontent.com/28496268/46102770-bcb37c00-c194-11e8-81f9-46afbdcd8da6.jpg) into `Pictures`.
     
@@ -50,6 +50,11 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     * **Security & Privacy > FileVault**, set `Turn On FileVault`. Just do it.
 
     * **Trackpad**, check `Tap to Click`.
+    
+* **Notifications**
+
+    * Turn 'em off except for things like Chrome, Messages, FaceTime, etc.
+    
     
 * **Miscellaneous**
 
