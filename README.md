@@ -141,8 +141,7 @@ Add the `~/.vimrc` file:
 
 OS X comes with [Python](https://www.python.org/) already installed but using Homebrew makes it easier to keep your installation up to date. 
 
-This will install Python 3.x and any required dependencies:
-
+    $ brew install python
     $ brew install python3
 
 #### Pip
@@ -168,12 +167,24 @@ Helpful commands:
     $ pip install <package>                                 # when (venv) is active, installs package in venv folder
 
 
-### Node
+### Others
 <a href="https://nodejs.org/en/download/">
   <img src="https://user-images.githubusercontent.com/28496268/62000735-67394b80-b093-11e9-8c25-7ada81151a02.png" width="8%" height="8%">
 </a>
 
     $ brew install node
+ 
+<a href="https://redis.io/download">
+  <img src="https://user-images.githubusercontent.com/28496268/62000854-bb91fa80-b096-11e9-92f0-6fa198ee7ad6.png" width="8%" height="8%">
+</a>
+
+    $ brew install redis
+
+<a href="https://www.postgresql.org/download/">
+  <img src="https://user-images.githubusercontent.com/28496268/62000855-bcc32780-b096-11e9-84fb-7de64114bb46.png" width="8%" height="8%">
+</a>
+
+    $ brew install postgresql
     
 
 ## Font Downloads
