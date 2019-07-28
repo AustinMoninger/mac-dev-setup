@@ -1,6 +1,6 @@
 # My Mac Dev Environment Setup
 
-I try to stay as digitally minimalistic as possible, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
+I try to stay digitally minimalistic, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
 That was in part the motivation for this repo; I already have all the files I do not want to lose stored in the cloud, but I did not have anyway to remember how I like my machine configured. The other part of the motivation was that over the beginning of my internship in the summer of 2018 I received a computer that was a clean slate, and instead of being able to configure it how I liked all at once, I had to slowly recall all the settings I liked over the course of the summer. Now with this page, I can be done with all of that on the first day in a few (several) clicks. I borrowed a lot from [this repository](https://github.com/nicolashery/mac-dev-setup); check it out too.
 
@@ -348,8 +348,19 @@ Nice UI for querying databases.
 
     $ brew cask install sequel-pro
     
+    
+### Slack
+<a href="https://slack.com/downloads/mac">
+  <img src="https://user-images.githubusercontent.com/28496268/62001075-8ee0e180-b09c-11e9-9e2a-ca0d7810caa5.png" width="8%" height="8%">
+</a>
 
+Best workplace messaging app!
 
+[Install Slack](https://slack.com/downloads/mac):
+
+    $ brew cask install slack
+    
+    
 ## Menu Bar App Downloads
 
 
@@ -394,7 +405,7 @@ Backs up everything on your machine that you choose onto Google Drive. Instant p
     $ brew cask install google-backup-and-sync
 
 
-### Magnet
+### Magnet (not in setup.sh)
 <a href="https://itunes.apple.com/us/app/magnet/id441258766?mt=12">
   <img src="https://user-images.githubusercontent.com/28496268/43026251-818a3838-8c3a-11e8-832b-c137175e6e67.png" width="9%" height="19%">
 </a>
