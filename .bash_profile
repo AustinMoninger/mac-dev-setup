@@ -4,7 +4,7 @@ PATH=$HOME/bin:$PATH
 export PATH
 
 # Make vim the default editor
-export EDITOR=vim;
+export EDITOR=vim
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
