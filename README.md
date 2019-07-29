@@ -51,9 +51,9 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
 
     * **Trackpad**, check `Tap to Click`.
     
-* **Notifications**
-
-    * Turn 'em off except for things like Chrome, Messages, FaceTime, etc.
+    * **Displays > Night Shift**, set schedule to `sunset to sunrise`.
+    
+    * **Notifications**, Turn 'em off except for things like Chrome, Messages, FaceTime, etc.
     
     
 * **Miscellaneous**
@@ -367,26 +367,21 @@ Best workplace messaging app!
 
     $ brew cask install slack
     
+
+### Notion
+<a href="https://www.notion.so/desktop">
+  <img src="https://user-images.githubusercontent.com/28496268/62018511-d6846d80-b16f-11e9-9396-2c5f3feebe1b.jpg" width="8%" height="8%">
+</a>
+
+Where my digital brain lives.
+
+[Install Notion](https://www.notion.so/desktop):
+
+    $ brew cask install notion
+    
     
 ## Menu Bar App Downloads
 
-
-### f.lux
-<a href="https://justgetflux.com/dlmac.html">
-  <img src="https://user-images.githubusercontent.com/28496268/42609272-65c66f76-8551-11e8-8a3e-099b8cf594f3.png" width="8%" height="18%">
-</a>
-
-Cool little app that makes the light emitted from your computer less harsh at night time. Something about reducing blue light ¯\\_(ツ)_/¯.
-
-[Install f.lux](https://justgetflux.com/dlmac.html):
-
-    $ brew cask install flux
-
-#### Preferences (⌘,)
-* set color temperature for `Daytime` to `4500K`, `Sunset` to `3500K`, and `Bedtime` to `2000K`.
-
-* select `Daytime` and check the box that says `Start at login`.
-    
     
 ### RescueTime
 <a href="https://www.rescuetime.com/installers/RescueTimeInstaller.pkg">
