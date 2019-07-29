@@ -32,20 +32,12 @@ brew install \
   redis \
   postgresql \
 
-# Install pip
-color '36;1' '📦  🐍  Installing Pip'
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
-rm get-pip.py
-
-# Install Python packages
-color '36;1' '📦  🐍  Installing Python packages'
-pip install virtualenv
-
 # Install applications via Homebrew 
 color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
 brew cask install google-chrome
-color '36;1' '📦  ⌨️  Installing VS Code via Homebrew'
+color '36;1' '📦  🖥️  Installing iTerm2 via Homebrew'
+brew cask install iterm2
+color '36;1' '📦  ⌨️   Installing VS Code via Homebrew'
 brew cask install visual-studio-code
 color '36;1' '📦  🔬  Installing Atom via Homebrew'
 brew cask install atom
@@ -61,10 +53,10 @@ color '36;1' '📦  🥞  Installing Sequel Pro via Homebrew'
 brew cask install sequel-pro
 color '36;1' '📦  📱  Installing Slack via Homebrew'
 brew cask install slack
+color '36;1' '📦  🗒️  Installing Notion via Homebrew'
+brew cask install notion
 
 # Install Menu Bar Applications via Homebrew 
-color '36;1' '📦  🌅  Installing f.lux via Homebrew'
-brew cask install flux
 color '36;1' '📦  ⏰  Installing RescueTime via Homebrew'
 brew cask install rescuetime
 color '36;1' '📦  🌥️  Installing Google Backup and Sync via Homebrew'
