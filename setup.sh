@@ -31,6 +31,16 @@ brew install \
   node \
   redis \
   postgresql \
+  
+# Install pip
+color '36;1' '📦  🐍  Installing Pip Python package manager'
+cd ~
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+sudo python get-pip.py
+rm get-pip.py
+
+# Install Python packages
+# TODO
 
 # Install applications via Homebrew 
 color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
@@ -68,10 +78,10 @@ mkdir ~/Projects
 
 # Fetch config files from GitHub
 cd ~
-color '36;1' '📦  🖥️  Getting ~/.gitconfig file from GitHub'
+color '36;1' '📦  🖥️  Getting .gitconfig file from GitHub'
 curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.gitconfig
 
-color '36;1' '📦  🖥️  Getting ~/.vimrc file from GitHub'
+color '36;1' '📦  🖥️  Getting .vimrc file from GitHub'
 cd ~
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
