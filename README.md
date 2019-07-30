@@ -172,6 +172,8 @@ Helpful commands:
     $ virtualenv venv --distribute --system-site-packages   # inherit globally installed packages
     $ source venv/bin/activate                              # activate (venv)
     $ pip install <package>                                 # when (venv) is active, installs package in venv folder
+    
+Other Python packages are in [setup.sh](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/setup.sh)
 
 
 ### Others
