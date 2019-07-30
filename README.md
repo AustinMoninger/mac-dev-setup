@@ -294,6 +294,8 @@ Terminal emulator that is highly configurable.
     * Under **Text**, change `Font` to Consolas 14pt.
     
     * Under **Colors > Color Presets...**, select Solarized Dark.
+    
+    * Under **Colors > Basic Colors**, make `Foreground` and `Bold` white.
 
     * Under **Terminal**, check `Unlimited scrollback`.
     
