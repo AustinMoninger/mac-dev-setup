@@ -42,9 +42,10 @@ rm get-pip.py
 # Install Python packages
 color '36;1' '📦  🐍  Installing Python packages'
 cd ~
-sudo -H pip install requests
-sudo -H pip install urllib3
-sudo -H pip install ipython
+sudo -H pip install --user --ignore-installed six
+sudo -H pip install --user requests
+sudo -H pip install --user urllib3
+sudo -H pip install --user ipython
 
 # Install applications via Homebrew 
 color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
