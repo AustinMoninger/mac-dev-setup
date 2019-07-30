@@ -31,3 +31,6 @@ alias gba='git branch -a'
 alias gf='git fetch'
 alias gfa='git fetch -a'
 alias gdel='git branch -d'
+
+# IPython alias
+alias ipython='python -m IPython'
