@@ -40,7 +40,11 @@ sudo python get-pip.py
 rm get-pip.py
 
 # Install Python packages
-# TODO
+color '36;1' '📦  🐍  Installing Python packages'
+cd ~
+sudo -H pip install requests
+sudo -H pip install urllib3
+sudo -H pip install ipython
 
 # Install applications via Homebrew 
 color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
@@ -177,5 +181,5 @@ defaults write com.apple.dock pinning start
 
 color '32;1' '✅  🎉  Done!'
 color '32;1' '💻 Restart your computer for all changes to take place!'
-color '32;1' '📖 Be sure to configure iTerm2, System Preferences, VS Code, and '
-color '32;1' '📖 sign in to the App Store to download Magnet.'
+color '32;1' '📖 Be sure to configure iTerm2, System Preferences, VS Code, Alfred, etc. '
+color '32;1' '📖 Also sign in to the App Store to download Magnet.'
