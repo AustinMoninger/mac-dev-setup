@@ -331,6 +331,8 @@ One of the most powerful tools on my Mac! Replacement Spotlight.
 
 Look through `Features` and pick things that make sense. Get a Powerpack license.
 
+Use [this AppleScript](https://github.com/stuartcryan/custom-iterm-applescripts-for-alfred/blob/master/custom_iterm_script_iterm_3.1.1.applescript) to open commands on iTerm with Alfred.
+
 Workflows to download:
 
   * `Open with Visual Studio Code`
