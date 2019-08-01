@@ -33,7 +33,7 @@ alias gb='git branch'
 alias gba='git branch -a'
 alias gf='git fetch'
 alias gfa='git fetch -a'
-alias gdel='git branch -d'
+alias gdel='git branch -D'
 alias grb='git rebase'
 
 # IPython alias
