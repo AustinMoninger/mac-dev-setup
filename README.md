@@ -1,6 +1,6 @@
 # My Mac Dev Environment Setup
 
-*All in one setup script found in [setup.sh](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/setup.sh). There's a handful of things to do manually like downloading Magnet from the App Store and some System Preferences configurations.*
+*All in one setup script found in [setup.sh](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/setup.sh). There's a handful of things to do manually like downloading Magnet from the App Store and some System Preferences configurations. Also, my email and name are used in [.gitconfig](https://github.com/AustinMoninger/my-mac-dev-setup/blob/master/setup.sh) so you would want to change that if you blindly run the setup script.*
 
 I try to stay digitally minimalistic, only downloading exactly what I use and need and getting rid of everything else. I also make sure that at any given time if I lose my device or it is stolen, that there isn't a single item on them that I would lose (other than the physical device itself, of course). 
 
