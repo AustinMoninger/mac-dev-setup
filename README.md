@@ -243,7 +243,8 @@ Format JSON that appears in your browser.
 Fuzzy search your open tabs.
 
 * [CLUT: Cycle Last Used Tabs](https://chrome.google.com/webstore/detail/clut-cycle-last-used-tabs/cobieddmkhhnbeldhncnfcgcaccmehgn?hl=en).
-Jump forward and back through recently used tabs like you would in code. Go to [chrome://extensions/shortcuts] to change `Go Back` to `cmd + i` and `Go Forward` to `cmd + o`.
+
+* Settings in [chrome://extensions/shortcuts].
 
 
 ### Visual Studio Code
@@ -270,7 +271,7 @@ Other editors and IDEs:
     * Put `.vscode/settings.json` in the settings.
     * Put `.vscode/keybindings.json` in the settings.
 
-* TODO: extensions I like will go here
+* *TODO*: extensions I like will go here
 
 
 ### iTerm2
@@ -285,26 +286,19 @@ Terminal emulator that is highly configurable.
     $ brew cask install iterm2
 
 #### Preferences (⌘,)
-* **General**
 
-    * Under **Closing**, uncheck `confirm closing multiple sessions` and `confirm quit iTerm2`.
-    
-* **Profiles**
 
-    * Create a new profile and call it `Austin`. Select `Other Actions...` and `Set as Default`.
-    
-    * Under **Text**, change `Font` to Consolas 14pt.
-    
-    * Under **Colors > Color Presets...**, select Solarized Dark.
-    
-    * Under **Colors > Basic Colors**, make `Foreground` and `Bold` white.
+    [Download the Consolas font first.](http://www.fontpalace.com/font-download/Consolas/)
 
-    * Under **Terminal**, check `Unlimited scrollback`.
-    
-* **Window**
+    Start iTerm2.
 
-    * Change `Columns` to 110 and `Rows` to 30.
-    
+    $ cd ~/Library/Application Support/iTerm2/DynamicProfiles
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/com.googlecode.iterm2.plist
+
+    Under **General > Preferences**, check `Load preferences from a custom folder or URL:` and enter `~/Library/Application Support/iTerm2/DynamicProfiles`.
+
+    Also check `Save changes to folder when iTerm2 quits`.
+
    
 ### Spotify
 <a href="https://download.scdn.co/SpotifyInstaller.zip">
