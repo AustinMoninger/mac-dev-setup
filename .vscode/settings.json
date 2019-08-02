@@ -1,7 +1,4 @@
 {
-    "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "files.autoSave": "afterDelay",
-    "explorer.sortOrder": "type",
-    "editor.acceptSuggestionOnEnter": "off",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
 }

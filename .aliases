@@ -24,6 +24,7 @@ alias ga='git add'
 alias gs='git status'
 alias gcm='git commit -m'
 alias gco='git checkout'
+alias gcob='git checkout -b'
 alias gcom='git checkout master'
 alias gl='git pull'
 alias gp='git push'
@@ -36,5 +37,6 @@ alias gfa='git fetch -a'
 alias gdel='git branch -D'
 alias grb='git rebase'
 
-# IPython alias
-alias ipython='python -m IPython'
+# Use python3 instead of python
+alias python='python3'
+alias ipython='ipython3'

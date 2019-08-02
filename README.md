@@ -54,6 +54,8 @@ Here are some preferences I like to tweak on my new Mac. (All the ones that I co
     * **Displays > Night Shift**, set schedule to `sunset to sunrise`.
     
     * **Notifications**, Turn 'em off except for things like Chrome, Messages, FaceTime, etc.
+
+    * **Mission Control**, uncheck `automatically rearrange Spaces based on recent use`.
     
     
 * **Miscellaneous**

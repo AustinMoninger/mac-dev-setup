@@ -44,8 +44,10 @@ color '36;1' '📦  🐍  Installing Python packages'
 cd ~
 sudo -H pip install --user --ignore-installed six
 sudo -H pip install --user requests
-sudo -H pip install --user urllib3
-sudo -H pip install --user ipython
+
+sudo -H pip3 install requests
+sudo -H pip3 install ipython
+
 
 # Install applications via Homebrew 
 color '36;1' '📦  🔎  Installing Google Chrome via Homebrew'
