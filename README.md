@@ -288,16 +288,16 @@ Terminal emulator that is highly configurable.
 #### Preferences (⌘,)
 
 
-    [Download the Consolas font first.](http://www.fontpalace.com/font-download/Consolas/)
+[Download the Consolas font first.](http://www.fontpalace.com/font-download/Consolas/)
 
-    Start iTerm2.
+Start iTerm2.
 
     $ cd ~/Library/Application Support/iTerm2/DynamicProfiles
     $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/com.googlecode.iterm2.plist
 
-    Under **General > Preferences**, check `Load preferences from a custom folder or URL:` and enter `~/Library/Application Support/iTerm2/DynamicProfiles`.
+Under **General > Preferences**, check `Load preferences from a custom folder or URL:` and enter `~/Library/Application Support/iTerm2/DynamicProfiles`.
 
-    Also check `Save changes to folder when iTerm2 quits`.
+Also check `Save changes to folder when iTerm2 quits`.
 
    
 ### Spotify
