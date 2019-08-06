@@ -1,4 +1,16 @@
 {
-    "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "workbench.iconTheme": "vscode-icons",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Noctis Obscuro",
+    "editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "explorer.sortOrder": "type",
+    "editor.acceptSuggestionOnEnter": "off",
+    "python.jediEnabled": false,
 }

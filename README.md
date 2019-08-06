@@ -267,13 +267,18 @@ Other editors and IDEs:
 
 
 #### Configurations
-   
-* **Preferences > Settings**
+Download the keybindings and settings.
 
-    * Put `.vscode/settings.json` in the settings.
-    * Put `.vscode/keybindings.json` in the settings.
+    $ cd ~/Library/Application\ Support/Code/User
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.vscode/keybindings.json
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.vscode/settings.json
 
-* *TODO*: extensions I like will go here
+Download the extensions.
+
+    $ cd ~
+    $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/.vscode/extensions.list
+    $ cat extensions.list | xargs -L1 code --install-extension
+    $ rm extensions.list
 
 
 ### iTerm2
@@ -294,7 +299,7 @@ Terminal emulator that is highly configurable.
 
 Start iTerm2.
 
-    $ cd ~/Library/Application Support/iTerm2/DynamicProfiles
+    $ cd ~/Library/Application\ Support/iTerm2/DynamicProfiles
     $ curl -O https://raw.githubusercontent.com/AustinMoninger/my-mac-dev-setup/master/com.googlecode.iterm2.plist
 
 Under **General > Preferences**, check `Load preferences from a custom folder or URL:` and enter `~/Library/Application Support/iTerm2/DynamicProfiles`.
