@@ -72,6 +72,8 @@ color '36;1' '📦  📱  Installing Slack via Homebrew'
 brew cask install slack
 color '36;1' '📦  🗒️  Installing Notion via Homebrew'
 brew cask install notion
+color '36;1' '📦  📹  Installing Zoom Video via Homebrew'
+brew cask install zoomus
 
 # Install Menu Bar Applications via Homebrew 
 color '36;1' '📦  ⏰  Installing RescueTime via Homebrew'
