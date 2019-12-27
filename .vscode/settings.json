@@ -4,7 +4,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "explorer.confirmDelete": false,
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "Noctis Obscuro",
+    "workbench.colorTheme": "Solarized Light",
     "editor.fontFamily": "Consolas, Menlo, Monaco, 'Courier New', monospace",
     "editor.fontSize": 13,
     "editor.formatOnPaste": true,

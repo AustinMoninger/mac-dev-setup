@@ -30,7 +30,6 @@ brew install \
   python3 \
   node \
   redis \
-  postgresql \
   
 # Install pip
 color '36;1' '📦  🐍  Installing Pip Python package manager'
@@ -66,14 +65,16 @@ color '36;1' '📦  🎩  Installing Alfred via Homebrew'
 brew cask install alfred
 color '36;1' '📦  🚼  Installing Postman via Homebrew'
 brew cask install postman
-color '36;1' '📦  🥞  Installing Sequel Pro via Homebrew'
-brew cask install sequel-pro
 color '36;1' '📦  📱  Installing Slack via Homebrew'
 brew cask install slack
 color '36;1' '📦  🗒️  Installing Notion via Homebrew'
 brew cask install notion
 color '36;1' '📦  📹  Installing Zoom Video via Homebrew'
 brew cask install zoomus
+color '36;1' '📦  💬  Installing FB Messenger via Homebrew'
+brew cask install caprine
+color '36;1' '📦  💀  Installing SelfControl via Homebrew'
+brew cask install selfcontrol
 
 # Install Menu Bar Applications via Homebrew 
 color '36;1' '📦  ⏰  Installing RescueTime via Homebrew'
@@ -81,9 +82,9 @@ brew cask install rescuetime
 color '36;1' '📦  🌥️  Installing Google Backup and Sync via Homebrew'
 brew cask install google-backup-and-sync
 
-# Create ~/Projects directory
-color '36;1' '📦  📽️  Creating ~/Projects directory'
-mkdir ~/Projects
+# Create ~/code directory
+color '36;1' '📦  📽️  Creating ~/code directory'
+mkdir ~/code
 
 # Fetch config files from GitHub
 cd ~
