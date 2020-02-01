@@ -73,8 +73,8 @@ color '36;1' '📦  📹  Installing Zoom Video via Homebrew'
 brew cask install zoomus
 color '36;1' '📦  💬  Installing FB Messenger via Homebrew'
 brew cask install caprine
-color '36;1' '📦  💀  Installing SelfControl via Homebrew'
-brew cask install selfcontrol
+color '36;1' '📦  🏹  Installing Focus via Homebrew'
+brew cask install focus
 
 # Install Menu Bar Applications via Homebrew 
 color '36;1' '📦  ⏰  Installing RescueTime via Homebrew'
